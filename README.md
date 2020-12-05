@@ -56,7 +56,27 @@ git clone https://github.com/pratikkorat26/DETR_FineTuning
       
 #### STEP : 4
 Now we are all set for the training
-      
-      
 
+ ###### num of important flags are there for main.py file and training file and you can see it 
+    - open the conda prompt and lead the directory
+    
+    example for the given data in the repository
+    
+    - run this command
+       - python main.py --num_classes 2 --coco_path "data" --batch_size 1 --num_queries 20 --output_die "path to where to save"
+       
+       - num_queries should always be greater than maximum number of bounding boxes in trainset
+       and more flags are there you can check it make it more compatible model
+       
+ 
+and everything get well you'll as shown in below picture
+
+![](https://github.com/pratikkorat26/DETR_FineTuning/blob/main/Screenshot.png)
+
+and if changes are needed to be done , all changes are accepted and make a pull request
+and if i missing something let me know and for contacting mail me
+
+mail address ==> pratikkorat1@gmail.com
+
+#### Thank you 
 
